@@ -1,0 +1,94 @@
+/* Estilo general del cuerpo */
+ body {
+  font-family: 'times new roman', sans-serif;
+  font-size: 30px;
+  text-align: alineado;
+  margin-top: 30px;
+  background-color: rgb(240, 250, 184)
+}
+
+/* Encabezado tipo banner */
+.banner {
+  background-color: #13007e;
+  color: rgb(235, 235, 235);
+  text-align: center;
+  padding: 10px 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.banner h1{
+  font-family: 'times new roman', sans-serif;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 30px;
+  }
+
+/* Navegación dentro del banner */
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  margin: 0 20px;
+  font-size: 30px;
+  text-decoration: none;
+  color: Lightblue;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+/* Título principal en cada página */
+h1{
+  font-family:'Times New Roman', sans-serif ;
+  font-size: 80px;
+  color: darkblue;
+  text-align: center;
+  margin-top: auto;
+}
+
+h2{
+  font-family: 'times new roman', sans-serif;
+  font-size: 60px;
+  color: rgb(236, 41, 41);
+  text-align: center;
+  margin-top: 30px;
+}
+
+/*Titulo Principal para los subtitulos en cada pagina*/
+h3 {
+  font-size: 50px; 
+  color: rgb(8, 12, 236);
+  text-align: left;
+}
+/*Subtitulo para temas extensos*/
+h4 {
+  font-size: 40px;
+  color: blueviolet;
+  text-align: left;
+}
+/* Párrafos */
+p{
+  font-family: 'times new roman', sans-serif;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  text-align: leftcenter;
+  margin-top: 10px;
+}
+
+/* Sección principal */
+main {
+  padding: 40px 20px;
+}
+
+/* Estilo para enlaces tipo botón si se usan */
+.banner-content h2 {
+  margin: 10;
+}
